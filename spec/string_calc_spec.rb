@@ -35,7 +35,7 @@ describe StringCalculator do
 			result.should == 6
 		end
 
-		it "should return 3 when \"//;\n1;2\" is passed" do
+		it "should return 3 when \"\/\/;\\n1;2\" is passed" do
 			result = @stringCalc.add("//;\n1;2")
 			result.should ==3
 		end
