@@ -42,5 +42,3 @@ describe StringCalculator do
 
 	end
 end
-
-
